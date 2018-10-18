@@ -1,0 +1,10 @@
+<context>
+
+<Resource name="jdbc/MyLocalDB" global="jdbc/MyLocalDB"
+	auth="Container" type="javax.sql.DataSource"
+	driverClassName="com.mysql.jdbc.Driver"
+	url="jdbc:mysql://localhost:3306/mindty" username="mindty_user"
+	password="M123" maxActive="100" maxIdle="20" minIdle="5"
+	maxWait="10000" />
+	
+</context>
